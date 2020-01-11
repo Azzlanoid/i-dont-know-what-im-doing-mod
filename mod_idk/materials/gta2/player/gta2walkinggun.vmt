@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "gta2/player/gta2walkinggun"
+    "%keywords" "gta"
+	"$translucent" 1
+
+    "Proxies"
+    {
+        "ToggleTexture"
+        {
+            "toggleTextureVar"    "$basetexture"
+            "toggleTextureFrameNumVar"        "$frame"
+            "toggleShouldWrap"    "1"
+        }
+    }
+}

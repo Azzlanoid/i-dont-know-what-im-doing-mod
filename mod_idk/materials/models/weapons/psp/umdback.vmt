@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\psp/umdback"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\weapons\psp\umdback_em"
+}

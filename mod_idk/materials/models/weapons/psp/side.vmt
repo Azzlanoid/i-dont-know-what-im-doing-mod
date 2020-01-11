@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\psp/side"
+	"$translucent" "1"
+	"$bumpmap" "models\weapons\psp\side"
+	"$envmap" "env_cubemap"
+}

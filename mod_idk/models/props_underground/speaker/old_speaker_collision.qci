@@ -1,0 +1,19 @@
+
+$collisionmodel "old_speaker_physics.smd"
+{
+	$mass 38.86601
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	$concave
+	$maxconvexpieces 1
+
+}
+
+$collisiontext
+{
+	collisionText 
+	{
+	}
+}

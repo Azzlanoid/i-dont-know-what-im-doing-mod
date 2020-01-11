@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\hasami/hasami"
+	"$bumpmap" "models\weapons\hasami\hasami_b"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapcontrast" "1"
+	"$envmapsaturation" "0"
+}

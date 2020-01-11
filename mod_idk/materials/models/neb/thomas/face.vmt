@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "\models\neb\thomas\face"
+	"$bumpmap" "\models\neb\thomas\face_n"
+	"$phong" "1"
+	"$halflambert" "1"
+	"$phongexponent" "1"
+	"$phongboost" ".1"	
+	"$phongfresnelranges"	"[ 0.3 0.7 1 ]"
+	"$rimlight" "1"
+	"$rimlightexponent" "50"
+	"$rimlightboost" "1"
+}

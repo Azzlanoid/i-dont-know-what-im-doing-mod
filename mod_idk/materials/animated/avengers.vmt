@@ -1,0 +1,14 @@
+"LightMappedGeneric"
+{
+"$baseTexture" "animated/avengers"
+"$surfaceprop" "Default"
+"Proxies"
+{
+"AnimatedTexture"
+{
+"animatedTextureVar" "$basetexture"
+"animatedTextureFrameNumVar" "$frame"
+"animatedTextureFrameRate" "30"
+}
+}
+} 

@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "\models\neb\thomas\eyes"
+	"$bumpmap" "\models\neb\thomas\eyes_n"
+	"$phong" "1"
+	"$halflambert" "1"
+	"$phongexponent" "15"
+	"$phongboost" "20"	
+	"$phongfresnelranges"	"[ 0.3 0.7 1 ]"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .01 .01 .01]"
+	"$rimlight" "2"
+	"$rimlightexponent" "50"
+	"$rimlightboost" "50"
+}
