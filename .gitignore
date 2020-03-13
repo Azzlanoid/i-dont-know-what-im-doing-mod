@@ -1,9 +1,4 @@
 # Folders
-bin/gfx
-bin/old
-bin/normal
-bin/portal engine
-bin/backup*
 expressions/
 mapssrc/
 materialsrc/
