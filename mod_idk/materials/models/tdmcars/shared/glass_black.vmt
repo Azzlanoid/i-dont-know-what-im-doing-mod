@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/shared/black"
+	"$bumpmap"    "models/tdmcars/shared/glass_nm"
+	"$nodecal" "1"
+	"$phong" 1
+	"$phongboost" ".2"
+	"$phongexponent" 2
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1.0"
+	"$phongfresnelranges" "[0.0 0.1 1.0]"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

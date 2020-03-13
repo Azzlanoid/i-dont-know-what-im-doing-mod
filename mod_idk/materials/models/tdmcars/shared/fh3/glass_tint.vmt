@@ -1,0 +1,21 @@
+"Refract"
+{
+ 	"$model" 1
+	"$refractamount" "0.5"
+	"$refracttinttexture" "models/tdmcars/shared/fh3/glass_tint"
+	"$dudvmap" "models/tdmcars/shared/skin_nm"
+	"$normalmap" "models/tdmcars/shared/skin_nm"
+	"$nodetail" 1
+	"$surfaceprop" "glass"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.5 0.5 .5]"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

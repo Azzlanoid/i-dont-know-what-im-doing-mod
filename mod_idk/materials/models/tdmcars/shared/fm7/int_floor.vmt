@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale .75 .75 rotate 0 translate 0 0"
+	"$basetexture" "models/tdmcars/shared/fh3/ptn_fabric_013"
+	"$bumpmap" "models/tdmcars/shared/fh3/ptn_fabric_013_nrml"
+	"$nodecal" "1"
+	"$colorfix" "{40 40 40}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

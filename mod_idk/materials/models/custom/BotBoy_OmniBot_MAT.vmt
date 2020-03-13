@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/custom/BotBoy_OmniBot_MAT"
+	"$bumpmap" "models/custom/BotBoy_OmniBot_NRM"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[2.12 1.75 .55]"
+	"$phong" "1" 
+	"$phongtint" "[2.12, 1.75 .55]" 
+	"$phongexponent" "7"
+	"$phongboost" "6"
+	"$normalmapalphaenvmapmask" "1"
+	"$surfaceprop" "Metal"
+}

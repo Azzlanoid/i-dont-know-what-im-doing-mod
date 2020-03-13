@@ -1,0 +1,11 @@
+patch
+{
+	include materials/models/tdmcars/shared/base_interior.vmt
+	insert
+	{
+		$basetexture "models/tdmcars/shared/fh3/recaro_010_diff"
+		$bumpmap "models/tdmcars/shared/fh3/recaro_010_nrml"
+		"$colorfix" "{100 100 100}"
+	}
+}
+

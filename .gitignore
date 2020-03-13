@@ -1,3 +1,17 @@
+# Folders
+bin/gfx
+bin/old
+bin/normal
+bin/portal engine
+bin/backup*
+expressions/
+mapssrc/
+materialsrc/
+materialssrc/
+models(todelete)/
+modelssrc/
+
+
 # Prerequisites
 *.d
 
@@ -50,3 +64,4 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+*.bmp

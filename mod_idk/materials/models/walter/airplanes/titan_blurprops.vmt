@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/walter/airplanes/titan_blurprops"
+	"$translucent" 1
+}

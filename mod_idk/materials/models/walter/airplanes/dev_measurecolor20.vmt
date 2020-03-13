@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/walter/airplanes/dev_measurecolor20"
+	"$translucent" 1
+
+	"$nocull" 1
+}

@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/walter/airplanes/flyer_interior_seat_hd"
+
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" ".1"	
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "0"
+	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"	
+
+	"$ambientocclusion" "1"
+}

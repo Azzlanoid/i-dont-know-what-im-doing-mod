@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/walter/airplanes/shared_navlights"
+	"$translucent" 1
+}

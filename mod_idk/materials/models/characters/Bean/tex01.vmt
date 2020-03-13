@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/characters/Bean/Tex01"
+	"$nocull" "1"
+}
+
+

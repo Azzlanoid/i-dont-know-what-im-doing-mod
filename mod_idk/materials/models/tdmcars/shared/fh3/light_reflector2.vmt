@@ -1,0 +1,9 @@
+patch
+{
+	include materials/models/tdmcars/shared/chrome.vmt
+	insert
+	{
+		$bumpmap "models/tdmcars/shared/fh3/light_reflector2"
+	}
+}
+

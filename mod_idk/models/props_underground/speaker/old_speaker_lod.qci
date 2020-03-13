@@ -1,6 +1,0 @@
-
-$lod 15
-{
-	replacemodel "old_speaker_model.smd" "old_speaker_model_lod1.smd"
-	nofacial
-}

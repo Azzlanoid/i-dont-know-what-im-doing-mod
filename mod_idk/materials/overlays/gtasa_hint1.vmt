@@ -1,0 +1,5 @@
+"Unlitgeneric"
+{
+	"$basetexture" "overlays/gtasa_hint1"
+	"$translucent" 1
+}

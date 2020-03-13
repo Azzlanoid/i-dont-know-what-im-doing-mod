@@ -1,0 +1,12 @@
+patch
+{
+	include materials/models/tdmcars/shared/base_interior.vmt
+	insert
+	{
+		"$basetexturetransform" "center .5 .5 scale 10 10 rotate 0 translate 0 0"
+		$basetexture "models/tdmcars/shared/skin"
+		"$bumpmap" "models/tdmcars/shared/fh3/ptn_fiber_001_nrml"
+		$colorfix "{200 20 20}"
+	}
+}
+

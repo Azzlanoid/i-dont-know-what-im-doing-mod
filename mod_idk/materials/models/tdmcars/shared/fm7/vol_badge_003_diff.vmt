@@ -1,0 +1,10 @@
+patch
+{
+	include materials/models/tdmcars/shared/chrome.vmt
+	insert
+	{
+		"$basetexture" "models/tdmcars/shared/fm7/vol_badge_003_diff"
+		"$bumpmap" "models/tdmcars/shared/fm7/vol_badge_003_nrml"
+	}
+}
+

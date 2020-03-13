@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/walter/airplanes/twinjet_turbine"
+
+	$envmap env_cubemap
+	$envmapsaturation ".5"
+	$envmaptint ".5"
+	$envmapmask "models/walter/airplanes/twinjet_turbine_env"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"	
+	"$rimlightboost" "2"
+
+	"$ambientocclusion" "1"
+}

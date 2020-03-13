@@ -1,0 +1,10 @@
+patch
+{
+	include materials/models/tdmcars/shared/grille.vmt
+	insert
+	{
+		"$basetexture" "models/tdmcars/shared/fm7/bmw_badge_diff"
+		"$bumpmap" "models/tdmcars/shared/fm7/bmw_badge_nrml"
+	}
+}
+

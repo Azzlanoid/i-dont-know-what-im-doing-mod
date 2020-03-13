@@ -1,0 +1,10 @@
+patch
+{
+	include materials/models/tdmcars/shared/chrome.vmt
+	insert
+	{	
+		"$basetexturetransform" "center .5 .5 scale .78 1 rotate 0 translate 0 0"
+		"$bumpmap" "models/tdmcars/shared/mirror_nrm"
+	}
+}
+

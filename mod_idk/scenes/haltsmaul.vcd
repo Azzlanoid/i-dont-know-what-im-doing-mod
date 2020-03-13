@@ -1,0 +1,208 @@
+// Choreo version 1
+actor "Kleiner"
+{
+  channel "Dialog"
+  {
+    event speak "vo\haltsmaulbitch.wav"
+    {
+      time 0.026316 5.970624
+      param "vo\haltsmaulbitch.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Gestures"
+  {
+    event gesture "gesture1"
+    {
+      time 0.039649 2.839649
+      param "A_g_mid_rtfingflareout"
+      absolutetags playback_time
+      {
+        "apex" 0.144578
+        "accent" 0.222571
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "accent" 0.421687
+        "loop" 0.542169
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "lean"
+    {
+      time 0.033333 5.246666
+      param "A_P_left_lean_rtfootout"
+      absolutetags playback_time
+      {
+        "apex" 0.193314
+        "loop" 0.335078
+        "end" 0.751918
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.234375
+        "loop" 0.406250
+        "end" 0.640625
+      }
+      sequenceduration 4.300000
+    }
+    event gesture "gestriue2"
+    {
+      time 2.140350 5.440351
+      param "A_g_think_gunwave"
+      absolutetags playback_time
+      {
+        "in" 0.306122
+        "loop" 0.694286
+        "end" 0.704286
+        "out" 0.714286
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.306122
+        "loop" 0.714286
+        "end" 0.714286
+        "out" 0.714286
+      }
+      sequenceduration 3.300000
+    }
+    event gesture "byebye"
+    {
+      time 5.385964 8.352631
+      param "A_g_wave"
+      absolutetags playback_time
+      {
+        "apex" 0.181818
+        "accent" 0.363636
+        "loop" 0.659091
+        "end" 0.681818
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.181818
+        "accent" 0.363636
+        "loop" 0.659091
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+  }
+  channel "flex"
+  {
+    event flexanimation "Face"
+    {
+      time 0.074737 5.262807
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "lid_raiser" combo 
+        {
+          0.4322 0.0800
+          0.5697 0.6500
+          0.6447 0.1000
+        }
+        {
+        }
+        "blink" 
+        {
+          0.1572 0.0500
+          0.2197 1.0000
+          0.2822 0.0400
+          1.1447 0.1000
+          1.2822 0.8800
+          1.3697 0.2400
+          2.9697 0.0500
+          3.1760 0.9500
+          3.3322 0.0200
+          3.3635 0.0300
+        }
+        "inner_raiser" combo 
+        {
+          0.2547 0.9300
+          0.3607 0.9300
+          0.5347 0.2100
+          2.0615 0.2300
+          3.1478 0.1500
+          3.6233 0.5100
+          3.7865 0.2100
+        }
+        {
+        }
+        "outer_raiser" combo 
+        {
+          0.1187 0.0900
+          0.1707 0.4600
+          0.4967 0.8100
+          0.7227 0.0400
+          3.1457 0.0000
+          3.4107 0.2500
+          3.7478 0.0000
+        }
+        {
+        }
+        "lowerer" combo 
+        {
+          0.4545 0.0100
+          0.7091 0.9700
+          1.0455 0.8700
+          2.7364 0.6300
+          3.2237 0.3700
+          3.6641 0.6800
+          4.3763 0.2000
+        }
+        {
+        }
+        "wrinkler" 
+        {
+          3.0884 0.0700
+          3.2884 0.9600
+          3.4822 0.0600
+        }
+        "bite" 
+        {
+          1.6147 0.0300
+          1.8647 0.9200
+          2.3547 0.0000
+        }
+        "sneer_left" 
+        {
+          2.3727 0.0600
+        }
+        "jaw_sideways" range -1.0 1.0 
+        {
+        }
+      }
+    }
+  }
+  channel "Lookat"
+  {
+    event lookat "Look at real_kleiner"
+    {
+      time 0.040000 5.313334
+      param "real_kleiner"
+    }
+    event face "Face real_kleiner"
+    {
+      time 0.052631 5.315790
+      param "real_kleiner"
+    }
+  }
+}
+
+scalesettings
+{
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+  "RampTool" "100"
+  "ExpressionTool" "22"
+  "CChoreoView" "76"
+}
+fps 60
+snap off
+ignorePhonemes off

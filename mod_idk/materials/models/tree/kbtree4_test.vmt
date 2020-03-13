@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tree/kbtree4_test"
+	"$alpha" 1
+        "$allowalphatocoverage" 1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+}
