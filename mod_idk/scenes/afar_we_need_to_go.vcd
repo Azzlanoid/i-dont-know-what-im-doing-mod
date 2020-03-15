@@ -1,0 +1,155 @@
+// Choreo version 1
+actor "afar"
+{
+  channel "Dialog"
+  {
+    event speak "vo\afar\i-am-from-the-future.wav"
+    {
+      time 0.043860 7.314609
+      param "vo\afar\i-am-from-the-future.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "flex"
+  {
+    event gesture "headmovement"
+    {
+      time 0.026316 2.370176
+      param "accentup_ext"
+      absolutetags playback_time
+      {
+        "apex" 0.172715
+        "extreme" 0.302251
+        "loop" 0.604502
+        "end" 0.791610
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.144578
+        "extreme" 0.253012
+        "loop" 0.506024
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "headyes"
+    {
+      time 2.131579 4.431579
+      param "a_bg_hdaccleft"
+      absolutetags playback_time
+      {
+        "apex" 0.117647
+        "extreme" 0.338235
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.117647
+        "extreme" 0.338235
+        "loop" 0.514706
+        "end" 0.588235
+      }
+    }
+    event gesture "a_bg_hdaccup"
+    {
+      time 4.508771 6.808772
+      param "a_bg_hdaccup"
+      absolutetags playback_time
+      {
+        "apex" 0.117647
+        "extreme" 0.338235
+        "loop" 0.514706
+        "end" 0.588235
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.117647
+        "extreme" 0.338235
+        "loop" 0.514706
+        "end" 0.588235
+      }
+    }
+    event gesture "movement"
+    {
+      time -0.631579 2.668421
+      param "A_p_lft_fwd"
+      absolutetags playback_time
+      {
+        "apex" 0.306122
+        "loop" 0.459184
+        "end" 0.561224
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.306122
+        "loop" 0.459184
+        "end" 0.561224
+      }
+    }
+    event gesture "A_bg_h_jerkrt_ik"
+    {
+      time 4.508772 7.142105
+      param "A_bg_h_jerkrt_ik"
+      absolutetags playback_time
+      {
+        "apex" 0.141026
+        "extreme" 0.269231
+        "loop" 0.628205
+        "end" 0.641026
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.141026
+        "extreme" 0.269231
+        "loop" 0.628205
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+  }
+  channel "Lookat"
+  {
+    event gesture "a_g_point"
+    {
+      time 3.175439 4.975439
+      param "a_g_point"
+      absolutetags playback_time
+      {
+        "in" 0.169811
+        "loop" 0.471698
+        "end" 0.566038
+        "out" 0.716981
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.169811
+        "loop" 0.471698
+        "end" 0.566038
+        "out" 0.716981
+      }
+    }
+    event lookat "Look at !player"
+    {
+      time 0.131579 0.631579
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "68"
+  "ExpressionTool" "22"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
