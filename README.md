@@ -1,10 +1,5 @@
 # i-dont-know-what-im-doing-mod
-The description is optional guys
+To fix the messed up camera while driving type this in console:
+r_JeepViewZHeight 0
 
-Also I still need:
-
-A mod name: 
-A dev-team name:
-more freetime
-
-Dont really read all this, i wrote this as a test.,
+Everything will be fixed sometime in the future 
