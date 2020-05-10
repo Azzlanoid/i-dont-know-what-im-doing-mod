@@ -1,8 +1,0 @@
-patch
-{
-	include materials/models/tdmcars/shared/invisible.vmt
-	insert
-	{
-	}
-}
-

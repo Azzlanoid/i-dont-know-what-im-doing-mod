@@ -1,6 +1,0 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "models/walter/airplanes/planeset_carpet"
-
-	"$ambientocclusion" "1"
-}

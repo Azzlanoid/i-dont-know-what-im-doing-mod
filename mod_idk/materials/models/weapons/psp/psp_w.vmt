@@ -1,8 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\weapons\psp/psp_w"
-	"$model" "1"
-	"$selfillum" "1"
-	"$envmap" "env_cubemap"
-	"$envmapmask" "models\weapons\psp\psp_em"
-}

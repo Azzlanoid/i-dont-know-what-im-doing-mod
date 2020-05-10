@@ -1,9 +1,0 @@
-"patch"
-{
-	"include" "materials/models/tdmcars/shared/base_nodamage.vmt"
-	"insert"
-	{
-		"$basetexture" "models/tdmcars/rs4avant/nodamage"
-	}
-}
-

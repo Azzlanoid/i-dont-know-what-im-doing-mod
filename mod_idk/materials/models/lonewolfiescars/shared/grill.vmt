@@ -1,8 +1,0 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "models/LoneWolfiesCars/shared/grill"
-	"$bumpmap" "models/LoneWolfiesCars/shared/grille_nrm"	
-	"$blendtintbybasealpha" "1"
-    		"$nodecal" "1"
-
-}

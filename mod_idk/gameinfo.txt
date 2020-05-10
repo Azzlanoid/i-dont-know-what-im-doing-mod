@@ -1,15 +1,19 @@
 "GameInfo"
 {
-	game 		"AAAAAAAAAAAAAAAAAAAAAAAAA"
-	title 		"HALF-LIFE'"
-	title2		""
-	supportsvr	0
+	game	"Half-Life: 420"
+	title	"Half-Life: 420"
+	type	"singleplayer_only"
 
-	type		singleplayer_only
+	developer	"WHO Cares"
+	developer_url	"http://www.fuckoff.com/"
+	icon		"icon"
+
+	GameData	"mod_name.fgd"
+	InstancePath 	"maps/instances/"
 
 	FileSystem
 	{
-		SteamAppId				243730		// This sets the app ID in Steam
+		SteamAppId				420		// This sets the app ID in Steam
 		
 		//
 		// The code that loads this file automatically does a few things here:
@@ -31,15 +35,6 @@
 		//
 		SearchPaths
 		{
-			// First, mount all user customizations.  This will search for VPKs and subfolders
-			// and mount them in alphabetical order.  The easiest way to distribute a mod is to
-			// pack up the custom content into a VPK.  To "install" a mod, just drop it in this
-			// folder.
-			//
-			// Note that this folder is scanned only when the game is booted.
-			game+mod			ep2/custom/*
-			game+mod			episodic/custom/*
-			game+mod			hl2/custom/*
 
 			// Now search loose files.  We'll set the directory containing the gameinfo.txt file
 			// as the first "mod" search path (after any user customizations).  This is also the one
@@ -69,9 +64,11 @@
 			game+game_write		ep2
 
 			// Where the game's binaries are
-			gamebin				episodic/bin
+//			gamebin				episodic/bin
+			gamebin				bin
 
 			// Last, mount in shared HL2 loose files
+			game				|all_source_engine_paths|ep2
 			game				|all_source_engine_paths|episodic
 			game				|all_source_engine_paths|hl2
 			platform			|all_source_engine_paths|platform

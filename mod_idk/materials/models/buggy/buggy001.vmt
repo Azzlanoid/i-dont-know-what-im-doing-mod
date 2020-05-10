@@ -1,6 +1,0 @@
-"vertexlitgeneric"
-{
-    "$basetexture" "models\buggy\buggy001"
-    "$bumpmap" "models\buggy\buggy001_normal"
-    "$surfaceprop" "metal"
-}

@@ -23,10 +23,6 @@ lights/white004			170 228 247 425
 lights/white005			234 235 220 375
 lights/white006			234 235 220 100
 
-lights/blue001			166 180 196 200 166 180 196 100
-lights/blue002			141 176 203 200 141 176 203 100
-lights/red001			63 1 1 200 63 1 1 100
-
 lights/white001_nochop	250 240 205 100
 lights/white002_nochop	189 233 247 425
 lights/white003_nochop	232 246 190 350
@@ -59,69 +55,3 @@ building_template/Building_Trainstation_window002d	230 230 200 300
 building_template/Building_Trainstation_window002e	230 230 200 300
 
 lights/physgunlight	189 231 232 20
-
-noshadow tree_deciduous_01a_branches.vmt
-noshadow tree_deciduous_01a_leaves.vmt
-noshadow tree_deciduous_01a_lod.vmt
-noshadow tree_deciduous_01a_lod-leaves.vmt
-
-forcetextureshadow props_foliage/tree_dead01.mdl
-forcetextureshadow props_foliage/tree_dead02.mdl
-forcetextureshadow props_foliage/tree_dead03.mdl
-forcetextureshadow props_foliage/tree_dead04.mdl
-forcetextureshadow props_foliage/tree_dry01.mdl
-forcetextureshadow props_foliage/tree_dry02.mdl
-forcetextureshadow props_foliage/tree_pine_large.mdl
-forcetextureshadow props_foliage/tree_pine04.mdl
-forcetextureshadow props_foliage/tree_pine05.mdl
-forcetextureshadow props_foliage/tree_pine06.mdl
-forcetextureshadow props_foliage/tree_deciduous_01a.mdl
-forcetextureshadow props_foliage/tree_deciduous_02a.mdl
-forcetextureshadow props_wasteland/interior_fence001a.mdl
-forcetextureshadow props_wasteland/interior_fence001b.mdl
-forcetextureshadow props_wasteland/interior_fence001c.mdl
-forcetextureshadow props_wasteland/interior_fence001d.mdl
-forcetextureshadow props_wasteland/interior_fence001e.mdl
-forcetextureshadow props_wasteland/interior_fence001g.mdl
-forcetextureshadow props_wasteland/interior_fence002a.mdl
-forcetextureshadow props_wasteland/interior_fence002b.mdl
-forcetextureshadow props_wasteland/interior_fence002c.mdl
-forcetextureshadow props_wasteland/interior_fence002d.mdl
-forcetextureshadow props_wasteland/interior_fence002e.mdl
-forcetextureshadow props_wasteland/interior_fence002f.mdl
-forcetextureshadow props_wasteland/interior_fence003a.mdl
-forcetextureshadow props_wasteland/interior_fence003b.mdl
-forcetextureshadow props_wasteland/interior_fence003d.mdl
-forcetextureshadow props_wasteland/interior_fence003e.mdl
-forcetextureshadow props_wasteland/interior_fence003f.mdl
-forcetextureshadow props_wasteland/interior_fence004a.mdl
-forcetextureshadow props_wasteland/interior_fence004b.mdl
-forcetextureshadow props_forest/fence_barb_256.mdl
-forcetextureshadow props_forest/fence_barb_512.mdl
-forcetextureshadow props_forest/fence_border_128.mdl
-forcetextureshadow props_forest/fence_border_256.mdl
-forcetextureshadow props_forest/fence_border_512.mdl
-forcetextureshadow props_forest/fence_trail_128.mdl
-forcetextureshadow props_forest/fence_trail_256.mdl
-forcetextureshadow props_forest/fence_trail_512.mdl
-forcetextureshadow props_wasteland/exterior_fence_notbarbed002a.mdl
-forcetextureshadow props_wasteland/exterior_fence_notbarbed002b.mdl
-forcetextureshadow props_wasteland/exterior_fence_notbarbed002c.mdl
-forcetextureshadow props_wasteland/exterior_fence_notbarbed002d.mdl
-forcetextureshadow props_wasteland/exterior_fence_notbarbed002e.mdl
-forcetextureshadow props_wasteland/exterior_fence_notbarbed002f.mdl
-forcetextureshadow props_wasteland/exterior_fence001a.mdl
-forcetextureshadow props_wasteland/exterior_fence001b.mdl
-forcetextureshadow props_wasteland/exterior_fence002a.mdl
-forcetextureshadow props_wasteland/exterior_fence002b.mdl
-forcetextureshadow props_wasteland/exterior_fence002c.mdl
-forcetextureshadow props_wasteland/exterior_fence002d.mdl
-forcetextureshadow props_wasteland/exterior_fence002e.mdl
-forcetextureshadow props_wasteland/exterior_fence003a.mdl
-forcetextureshadow props_wasteland/exterior_fence003b.mdl
-forcetextureshadow props_foliage/fern01.mdl
-forcetextureshadow props_foliage/ferns01.mdl
-forcetextureshadow props_foliage/ferns02.mdl
-forcetextureshadow props_foliage/ferns03.mdl
-forcetextureshadow props_forest/fern01.mdl
-forcetextureshadow props_forest/fern01lg.mdl

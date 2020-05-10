@@ -1,8 +1,0 @@
-"patch"
-{
-	"include" "materials/models/tdmcars/shared/fm7/ext_rubber.vmt"
-	"insert"
-	{
-		"$bumpmap" "models/tdmcars/shared/fm7/welds_nrm"
-	}
-}

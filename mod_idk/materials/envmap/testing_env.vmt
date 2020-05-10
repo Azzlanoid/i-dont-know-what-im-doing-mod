@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	
+	"$envmap env_cubemap"
+	"%tooltexture" "shadertest/shadertest_env"
+}
